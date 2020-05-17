@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta property="og:title" content="Coronavirus COVID-19">
+    <meta property="og:image" content="img.png">
+    <meta property="og:description" content="Coronavirus COVID-19 LIVE Counter">
+    <meta property="og:url" content="https://coronavirus2019covid-19.netlify.com">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Coronavirus COVID-19 LIVE Counter">
+    <meta name="keywords" content="coronavirus, pandemic, 2019, India, America, Spain, Worldometers, Death, Update, Symptoms, world, Italy, recovered, Tracker, COVID-19, death rate, cases, positive, trande, news, active cases, infected, dischargde, china, wuhan, virus, disease, sanitizer, soap, lockdown, epicenter, population, condition, outcome, total cases, mortality rate, confirmed cases, WHO, world health organization, germany, france, iran, test, epidemic, crisis, economy, economic, finanical, age, counter, old age, mask, prevention, live, life, measures, alert, global, sos, health, public, emergency, people, infected, china virus, patients, daily, statistic, data, uk, united kindom, britain, newyork, canada, spread, doctorssss">
+    <meta name="author" content="Parul Gupta">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='style.css'> -->
+    <link rel="icon" href="img.png">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5e8f49bc80de828e"></script>
+    <title>CORONAVIRUS COVID-19 LIVE Counter</title>
+    
+
+</head>
+<body>
+    <style>
+            body{
+            font-family: 'Lato', sans-serif;
+            }
+            .table{
+                font-size: 15px;
+            }
+            #tbody :hover{
+                color: #f89406;
+            }
+            @media only screen and (max-width: 600px) {
+            .heading {font-size: 20px;}
+            .p1{font-size: 10px;}
+            .p2{font-size: 10px;}
+            .tc{font-size: 50px;}
+}
+    </style>
+    <div class="container-fluid">
+    <div class="row">
+
+    <div class="col-lg-12 mx-auto">
+        <h2 class="text-center mt-3 heading">Coronavirus COVID-19</h2>
+        <h5 class ="text-center p1">LIVE COUNTER</h5>
+        <h5 class ="text-center p2">Last updated on: <span id="demo"></span></h5>
+        <div class="card text-white bg-info mt-3 mb-3 p-2">
+            <h3 class="text-center" >TOTAL CASES</h3>
+            <h1 class="display-3 text-center tc" id="total_cases"></h1>
+        </div>
+    </div>
+
+    <div class="col-lg-3">
+    <div class="card text-white bg-warning p-2">
+    <h5 class="text-center">TOTAL DEATHS</h5>
+    <h2 class="text-center" id="total_death"></h2>
+    </div>
+    </div>
+
+    <div class="col-lg-3">
+    <div class="card text-white bg-warning p-2">
+    <h5 class="text-center">TOTAL RECOVERY</h5>
+    <h2 class="text-center" id="total_recovered"></h2>
+    </div>
+    </div>
+
+    <div class="col-lg-3">
+    <div class="card text-white bg-warning p-2">
+    <h5 class="text-center">NEW CASES</h5>
+    <h2 class="text-center" id="new_case"></h2>
+    </div>
+    </div>
+
+    <div class="col-lg-3">
+    <div class="card text-white bg-warning p-2">
+    <h5 class="text-center">NEW DEATHS</h5>
+    <h2 class="text-center" id="new_death"></h2>
+    </div>
+    </div>
+
+    <table class="table table-hover mt-3 text-center text-white" id="countries_stat">
+
+    <thead>
+    <tr class ="table-primary">
+    <th>All COUNTRIES</th>
+    <th>TOTAL CASES</th>
+    <th>TOTAL DEATHS</th>
+    <th>SERIOUS CRITICAL</th>
+    <th>NEW DEATHS</th>
+    <th>NEW CASES</th>
+    <th>ACTIVE CASES</th>
+    <th>TOTAL RECOVERED</th>    
+    </tr>
+    </thead>
+
+    <tbody id="tbody">
+    <tr class ="table-primary">
+    </tbody>
+    
+    </table>
+
+
+    <div class="container mt-3 mb-3">
+    <div class="col-lg-12 mx-auto">
+    <h5 class ="text-center">Made with 💙 by <a href="https://parul.netlify.com/" target="_blank" class="text-info">Parul Gupta</a></h5>
+    <!-- <h5 class ="text-center"><a href="https://www.buymeacoffee.com/vhC1NQi" target="blank">Buy me a coffee </a></h5> -->
+    </div>
+    </div>
+
+    <div class="container mb-3">
+    <div class="col-lg-12 mx-auto">
+    <div class="addthis_inline_share_toolbox_7h7z text-center"></div>         
+    </div>
+    </div>
+
+
+
+    </div>
+    </div>
+<script src='sketch.js'></script>
+</body>
+</html>
